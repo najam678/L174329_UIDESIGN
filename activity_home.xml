@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dok"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".home">
+
+    <TextView
+        android:layout_width="515dp"
+        android:layout_height="136dp"
+        android:background="#581D14"
+        android:padding="30dp"
+        android:text="HOME "
+        android:textAlignment="center"
+        android:textColor="#CAA5A5"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="544dp"
+        android:layout_marginTop="0dp"
+
+        android:background="@drawable/popppp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="289dp">
+
+
+        <ImageView
+            android:layout_width="197dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="50dp"
+
+            app:layout_column="8"
+            app:layout_row="1"
+            app:srcCompat="@drawable/pic1" />
+
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="194dp"
+            android:layout_marginTop="50dp"
+
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/pic2" />
+
+        <ImageView
+            android:layout_width="197dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="50dp"
+
+            app:layout_column="8"
+            app:layout_row="0"
+            app:srcCompat="@drawable/pic3" />
+
+        <ImageView
+            android:layout_width="213dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="50dp"
+
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/signupim" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="147dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/searchicon"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/searchicon" />
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/homeid"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/homeicon" />
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/profileid"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/personicon" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
