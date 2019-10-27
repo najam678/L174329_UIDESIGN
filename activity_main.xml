@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/starysky"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+>
 
-    <TextView
+    <EditText
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#B13A15"
+        android:text="username"
+        android:textSize="25sp"
+        android:id="@+id/signup_username"
+
+        />
+
+    <EditText
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="password"
+        android:textColor="#B13A15"
+        android:textSize="25sp"
+        android:id="@+id/signup_password"
+        />
+
+    <CheckBox
+
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="#DF9432"
+        android:id="@+id/checkbox_signup"
+        android:text="Save Registeration" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
+        android:text="Signup" />
+
+</LinearLayout>
