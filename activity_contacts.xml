@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@drawable/c2"
+
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:background="@drawable/c2">
+
+            <ImageView
+
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="2dp"
+
+                app:srcCompat="@drawable/llldo" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:text="Najam Sheraz"
+            android:textColor="#D84315"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+       android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C77628">
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/blackemail" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="najamsheraz18@gmail.com"
+                android:textColor="#00838F">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#C77628">
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/callpic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="03234569848"
+                android:textColor="#00838F">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#C77628">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/crossbone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="INSANE"
+
+                android:textColor="#00838F"
+                android:textSize="20dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/searchid1"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/searchicon" />
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/homeid1"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/homeicon" />
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/profid1"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/personicon" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
